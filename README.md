@@ -1,7 +1,7 @@
 # TNBC_MS023_ERV
 ## Introduction
 This repository contain the ERV analysis of this paper:  
-*Type I PRMT inhibition initiates the viral mimicry response in Triple Negative Breast Cancer, 2022, Wu et. al..*
+*Type I PRMT inhibition initiates the viral mimicry response in Triple Negative Breast Cancer, 2022, Wu et. al..*  
 The script for the analyses is written in R.
 ## Dependencies
 This analysis requires:
@@ -10,9 +10,9 @@ This analysis requires:
 + ggrepel
 + pheatmap
 ## Reproducibility of the Analysis:
-We use the [RepEnrich2](https://github.com/nerettilab/RepEnrich2) to estimate counts expression of repetitive element from RNA-seq FASTQ files, which the setting is recommended by the author of RepEnrich2.
-RNA-seq FASTQ files could be downloaded from: ...
-The "Data" folder of this repo contains RepEnrich2 outcomes of each samples.
+We use the [RepEnrich2](https://github.com/nerettilab/RepEnrich2) to estimate counts expression of repetitive element from RNA-seq FASTQ files, which the setting is recommended by the author of RepEnrich2.  
+The "Data" folder of this repo contains RepEnrich2 outcomes of each samples.  
+RNA-seq FASTQ files could be downloaded from: ...  
 + Once the project is downloaded to the user computer, the user needs to navigate to the main directory of the project "TNBC_MS023_ERV". Running the "repenrich_downstream.R" will regenerate the ERV differential expression analysis plots used in the paper.
 
 + Note1: the user need to set the working directory inside the script file before running it.
