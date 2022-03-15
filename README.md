@@ -1,6 +1,6 @@
 # TNBC_MS023_ERV
 ## Introduction
-This repository contain the ERV analysis of this paper:
+This repository contain the ERV analysis of this paper:  
 *Type I PRMT inhibition initiates the viral mimicry response in Triple Negative Breast Cancer, 2022, Wu et. al..*
 The script for the analyses is written in R.
 ## Dependencies
