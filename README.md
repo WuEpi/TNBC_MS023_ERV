@@ -12,7 +12,7 @@ This analysis requires:
 ## Reproducibility of the Analysis:
 We use the [RepEnrich2](https://github.com/nerettilab/RepEnrich2) to estimate counts expression of repetitive element from RNA-seq FASTQ files, which the setting is recommended by the author of RepEnrich2.  
 The "Data_and_Rscript" folder of this repo contains RepEnrich2 outcomes of each samples.  
-RNA-seq FASTQ files could be downloaded from: ...  
+ 
 + Once the project is downloaded to the user computer, the user needs to navigate to the main directory of the project "TNBC_MS023_ERV". Running the "RepEnrich2_Downstream.R" will regenerate the ERV differential expression analysis plots used in the paper.
 
 + Note1: the user need to set the working directory inside the script file before running it.
